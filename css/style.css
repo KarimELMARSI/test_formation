@@ -1,0 +1,25 @@
+
+.container {
+    font-family: poppins;
+    background-image: url("img/background.png");
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.items {
+    list-style: none;
+    display: flex;
+    width: 70%;
+    font-size: 23px;
+    justify-content: space-around;
+}
+.logo{
+    font-size: 45px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #0D0D0D;
+}
+.header_items:hover {
+    text-decoration: line-through #FF1515;
+}
