@@ -39,7 +39,7 @@ body {
     color: #0D0D0D;
 }
 .logo{
-    margin-left: 10px;
+    margin-left: 30px;
     font-size: 45px;
     font-weight: 700;
     text-decoration: none;
@@ -163,7 +163,12 @@ body {
 .projects {
     overflow: scroll;
     height: 100%;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
+.projects::-webkit-scrollbar {
+    display: none;
+  }
 .projects_intro {
     padding: 60px;
 }
@@ -288,13 +293,14 @@ body {
     margin-top: 150px;
 }
 .email_number > h4 , .social_media > p {
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 500;
     height: fit-content;
 }
 .email_number > p {
     font-size: 29px;
     height: fit-content;
+    color: #EFF0F3;
 }
 .social_media {
     grid-area: 1/2/4/3;
