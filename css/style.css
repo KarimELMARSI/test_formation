@@ -4,10 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url("../img/background.png");
     background-color: #EFF0F3;
-    background-size: 1116px;
-    background-repeat: no-repeat;
 }
 .container {
     font-family: poppins;
@@ -372,4 +369,11 @@ body {
 #copyright{
     font-size: 21px;
     font-weight: 700;
+}
+@media screen and (min-width: 769px){
+    body{
+        background-image: url('../img/background.png');
+        background-size: 1116px;
+        background-repeat: no-repeat;
+    }
 }
