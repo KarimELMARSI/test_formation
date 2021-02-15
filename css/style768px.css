@@ -1,7 +1,7 @@
 body {
     background-image: url("../img/background_tab_mob.png");
     background-repeat: no-repeat;
-    background-size: 1350px;
+    background-size: 1360px;
 }
 /*header tablet responsive section*/
 /*-------------------------------------------------------------------------------------------------*/
@@ -14,5 +14,57 @@ body {
 .items {
     display: none;
 }
+.header {
+    height: 96px;
+}
+.logo {
+    font-size: 69px;
+}
 /*hero-header tablet responsive section*/
 /*-------------------------------------------------------------------------------------------------*/
+.hero_header {
+    margin: auto;
+    grid-template-columns: 10% 30% 30% 30% 30%;
+    grid-template-rows: 16em 16em 30em 8em;
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+}
+.my_name {
+    width: 436px;
+    height: 166px;
+}
+.my_desc {
+    grid-area: 2/4/3/6;
+}
+.hero_header > a {
+    grid-area: 4/3/5/6;
+}
+.hero_header {
+    width: 100%;
+}
+.ichigo {
+    width: 538px;
+    height: 682px;
+    margin-top: auto;
+    grid-area: 2/2/4/4;
+}
+.my_name > p {
+    font-size: 86px;
+}
+.mname > p {
+    font-size: 27px;
+}
+/*display none*/
+/*-------------------------------------------------------------------------------------------------*/
+.about_me {
+    display: none;
+}
+.competances {
+    display: none;
+}
+#contact_me {
+    display: none;
+}
+.footer {
+    display: none;
+}
