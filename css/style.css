@@ -299,6 +299,15 @@ body {
     grid-row-gap: 2em;
     margin-top: 3em;
 }
+.social_media > a{
+    font-size: 45px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #0D0D0D;
+}
+.social_media > a:hover{
+    color: #EFF0F3;
+}
 .email_number{
     display: grid;
     grid-template-columns: 15% 85%;
