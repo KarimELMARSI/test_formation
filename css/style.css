@@ -56,11 +56,13 @@ body {
     justify-content: space-around;
     background-color: #FFFFFE;
     padding: 19px;
-    margin-left: 100px;
     width: 466px;
     height: 195px;
     border-bottom: solid 10px #E1E1E1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    grid-area: 1/2/2/4;
+    margin-top: auto;
+    
 }
 .my_desc {
     border-radius: 35px;
@@ -68,11 +70,12 @@ body {
     justify-content: center;
     background-color: #FFFFFE;
     padding: 19px;
-    margin-left: auto;
     width: 402px;
     height: 168px;
     border-bottom: solid 10px #E1E1E1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    grid-area: 2/3/3/5;
+    margin-top: auto;
 }
 .mname {
     display: flex;
@@ -90,18 +93,24 @@ body {
     border-style: none;
     border-radius: 22px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin-left: 80px;
+}
+.decsection > a {
+    grid-area: 3/2/4/4;
+    margin-top: auto;
 }
 .hero_header {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 63% 39%;
+    grid-column-gap: 20px;
 }
 .decsection{
     width: 720px;
     height: 650px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 10% 30% 30% 30%;
+    grid-template-rows: 2fr 2fr 1fr;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
 
 }
 .ichigo, .decsection {
