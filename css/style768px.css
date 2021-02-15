@@ -5,3 +5,12 @@ body {
 }
 /*header tablet responsive section*/
 /*-------------------------------------------------------------------------------------------------*/
+#hamburger {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 30px;
+}
+.items {
+    display: none;
+}
