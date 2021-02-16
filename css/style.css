@@ -8,7 +8,6 @@ body {
 }
 .container {
     font-family: poppins;
-    
 }
 /*header section*/
 /*-------------------------------------------------------------------------------------------------*/
@@ -152,7 +151,6 @@ body {
     border-radius: 44px;
     padding: 30px;
     background-color: #FFFFFE;
-    margin-top: 15px;
 }
 .project > h3 {
     font-size: 46px;
@@ -180,6 +178,8 @@ body {
     width: 100%;
 }
 .projects {
+    display: grid;
+    grid-row-gap: 26px;
     overflow: scroll;
     height: 100%;
     -ms-overflow-style: none;
