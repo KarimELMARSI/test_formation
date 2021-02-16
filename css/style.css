@@ -312,6 +312,10 @@ body {
     font-weight: 500;
     height: fit-content;
 }
+.email_number > img {
+    height: 90px;
+    width: 90px;
+}
 .email_number > p {
     font-size: 29px;
     height: fit-content;
@@ -323,11 +327,14 @@ body {
     grid-template-columns: 18% 82%;
     grid-template-rows: repeat(4, 5em);
     grid-row-gap: 2em;
+    grid-column-gap: 1em;
     margin-top: 3em;
 }
 .social_media > a{
     font-size: 45px;
     font-weight: 500;
+    margin-top: auto;
+    margin-bottom: auto;
     text-decoration: none;
     color: #0D0D0D;
 }
@@ -340,11 +347,30 @@ body {
     grid-template-rows: repeat(2, 4em);
     grid-column-gap: 25px;
     grid-row-gap: 10px;
-
 }
 .email_number > img {
     grid-row: 1/3;
     margin-bottom: auto;
+}
+.contact_me > h2 {
+    font-size: 58px;
+    font-weight: 700;
+}
+#facebook {
+    height: 74px;
+    width: 74px;
+}
+#instagram {
+    height: 74px;
+    width: 74px;
+}
+#twitter {
+    height: 74px;
+    width: 91px;
+}
+#github{
+    height: 81px;
+    width: 83px;
 }
 /*footer section*/
 /*-------------------------------------------------------------------------------------------------*/

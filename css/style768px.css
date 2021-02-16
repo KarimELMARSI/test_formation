@@ -186,8 +186,53 @@ body {
 /*contact me tablet responsive section*/
 /*-------------------------------------------------------------------------------------------------*/
 .contact_me {
-    height: 601px;
-    width: 1251px;
+    height: 378px;
+    width: 90%;
+    padding: 30px;
+}
+.contact_me > h2 {
+    font-size: 30px;
+}
+.social_media > a{
+    font-size: 23px;
+    
+}
+.email_number{
+    grid-template-rows: 25% 25%;
+}
+.email_number > p {
+    font-size: 15px;
+}
+.email_number > h4 , .social_media > p {
+    font-size: 23px;
+}
+.email_number > img {
+    height: 50px;
+    width: 50px;
+}
+.social_media {
+    grid-template-rows: repeat(4, 20%);
+    grid-row-gap: 5%;
+}
+#facebook {
+    height: 44px;
+    width: 44px;
+}
+#instagram {
+    height: 44px;
+    width: 44px;
+}
+#twitter {
+    height: 44px;
+    width: 61px;
+}
+#github{
+    height: 51px;
+    width: 53px;
+}
+#facebook, #instagram, #twitter, #github {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 /*display none*/
 /*-------------------------------------------------------------------------------------------------*/
