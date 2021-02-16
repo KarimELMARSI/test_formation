@@ -295,10 +295,10 @@ body {
 /*-------------------------------------------------------------------------------------------------*/
 .contact_me {
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 20% 40% 40%;
-    grid-column-gap: 130px;
-    grid-row-gap: 40px;
+    grid-template-columns: 45% 40%;
+    grid-template-rows: 18% 38% 38%;
+    grid-column-gap: 15%;
+    grid-row-gap: 6%;
     padding: 60px;
     height: 601px;
     width: 1251px;
