@@ -27,10 +27,23 @@ body {
 }
 .hamburger_menu {
     width: 100%;
-    height: 500px;
-    background-color: grey;
+    height: 700px;
+    background-color: #FF8E3C;
     position: fixed;
-    top: -500px;
+    top: -700px;
+    transition: top 0.7s;
+    display: grid;
+    grid-template-rows: repeat(6,16.66%);
+    border: 4px solid #FFFFFE;
+}
+.hamburger_menu > a {
+    color: #FFFFFE;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: none;
+}
+.hamburger_menu > a:hover{
+    color: #0D0D0D;
 }
 .items {
     list-style: none;
@@ -251,6 +264,7 @@ body {
     font-weight: 700;
     margin-left: 100px;
     text-align: center;
+    z-index: -1;
     writing-mode: vertical-rl;
     transform: scaleX(-1) scaleY(-1);
 }
@@ -390,7 +404,6 @@ body {
     grid-template-columns: 70% 30%;
     grid-template-rows: 85% 15%;
     padding: 40px;
-
 }
 .logo_social {
     display: grid;
