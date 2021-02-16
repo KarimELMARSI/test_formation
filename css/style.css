@@ -210,27 +210,25 @@ body {
 /*about me section*/
 /*-------------------------------------------------------------------------------------------------*/
 .about_me {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2, 47%);
     width: 1251px;
     margin: auto;
 }
 .about_me > img {
+    grid-row: 1/4;
     width: 540px;
     height: 540px;
     margin-top: 100px;
 }
-.abtme_section {
-    padding-left: 50px;
-}
-.abtme_section > h2 {
+.about_me > h2 {
     font-size: 58px;
     margin-top: 100px;
     font-weight: 700;
 }
-.abtme_section > p {
+.about_me > p {
     font-size: 37px;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 /*Competances section*/
 /*-------------------------------------------------------------------------------------------------*/
