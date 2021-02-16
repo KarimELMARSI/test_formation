@@ -232,27 +232,23 @@ body {
 }
 /*Competances section*/
 /*-------------------------------------------------------------------------------------------------*/
-.image_title {
-    position: relative;
-    width: 493px;
-}
-.image_title > img {
-    position: absolute;
-    right: 0;
+.competances > img {
     width: 316px;
     height: 715px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
-.image_title > h2 {
-    position: absolute;
+.competances > h2 {
     font-size: 58px;
     font-weight: 700;
-    top: 150px;
-    left: 130px;
+    margin-left: 100px;
+    text-align: center;
     writing-mode: vertical-rl;
     transform: scaleX(-1) scaleY(-1);
 }
 .competances{
-    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 10% 22% 68%;
     height: 865px;
 }
 .competance {
@@ -261,7 +257,6 @@ body {
     background-color: #FFFFFE;
     border: solid 4px #0D0D0D;
     border-radius: 39px;
-    margin-top: 25px;
     width: 852px;
     height: 199px;
     padding: 20px;
@@ -289,9 +284,12 @@ body {
     height: 100%;
 }
 .compts {
-    position: absolute;
-    right: 95px;
+    display: grid;
+    grid-row-gap: 25px;
     width: 852px;
+    height: 680px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 /*contact me section*/
 /*-------------------------------------------------------------------------------------------------*/

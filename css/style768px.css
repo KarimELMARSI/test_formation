@@ -122,10 +122,10 @@ body {
 .about_me {
     display: grid;
     grid-template-columns: repeat(2, 47%);
-    grid-template-rows: 15% 50% 35% 20%;
+    grid-template-rows: 15% 45% 25% 15%;
     grid-column-gap: 6%;
     width: 90%;
-    height: fit-content;
+    height:1100px;
     margin: auto;
 }
 .about_me > img {
@@ -156,13 +156,38 @@ body {
 }
 /*competances tablet responsive section*/
 /*-------------------------------------------------------------------------------------------------*/
+.competances > img {
+    display: none;
+}
+.competances > h2 {
+    margin-left: 0;
+    text-align: center;
+    margin-top: auto;
+    writing-mode:horizontal-tb;
+    transform: scaleX(1) scaleY(1);
+}
+.competances{
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 80%;
+    grid-row-gap: 50px;
+
+}
+.competance {
+    width: 656px;
+    height: 155px;
+}
+.compts {
+    width: 90%;
+    margin: auto;
+}
+.competance > div {
+    margin-left: 10px;
+}
+/*contact me tablet responsive section*/
+/*-------------------------------------------------------------------------------------------------*/
 
 /*display none*/
 /*-------------------------------------------------------------------------------------------------*/
-
-#contact_me {
-    display: none;
-}
 .footer {
     display: none;
 }
