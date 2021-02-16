@@ -20,6 +20,9 @@ body {
 .logo {
     font-size: 69px;
 }
+.changed {
+    top: 0;
+}
 /*hero-header tablet responsive section*/
 /*-------------------------------------------------------------------------------------------------*/
 .hero_header {
