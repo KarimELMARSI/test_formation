@@ -1,0 +1,20 @@
+/*display none*/
+/*-------------------------------------------------------------------------------------------------*/
+.hero_header{
+    display: none;
+}
+.project_container{
+    display: none;
+}
+.about_me{
+    display: none;
+}
+.competances{
+    display: none;
+}
+#contact_me{
+    display: none;
+}
+.footer{
+    display: none;
+}
