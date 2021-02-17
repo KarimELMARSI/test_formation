@@ -54,6 +54,9 @@ body{
 }
 /*projects mobile responsive section*/
 /*-------------------------------------------------------------------------------------------------*/
+.project_container{
+    height: fit-content;
+}
 .project_section{
     width: 90%;
     height: 450px;
@@ -101,6 +104,25 @@ body{
 }
 /*about me mobile responsive section*/
 /*-------------------------------------------------------------------------------------------------*/
+.about_me {
+    display: grid;
+    grid-template-columns: repeat(2, 47%);
+    grid-template-rows: 20% 40% 25% 15%;
+    grid-column-gap: 6%;
+    width: 90%;
+    height:600px;
+    margin: auto;
+}
+.about_me > img {
+    width: 208px;
+    height: 208px;
+}
+.about_me > h2 {
+    font-size: 22px;
+}
+.about_me > p {
+    font-size: 17px;
+}
 
 /*display none*/
 /*-------------------------------------------------------------------------------------------------*/
