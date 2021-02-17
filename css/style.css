@@ -110,6 +110,13 @@ body {
     grid-area: 2/3/3/5;
     margin-top: auto;
 }
+.my_desc > p{
+    font-weight: 600;
+    font-size: 32px;
+    height: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+}
 .mname {
     display: flex;
     flex-direction: column;
@@ -142,9 +149,6 @@ body {
 .ichigo {
     grid-area: 1/5/4/6;
     margin-left: auto;
-}
-.hero_header {
-    padding-top: 100px;
 }
 /*projects section*/
 /*-------------------------------------------------------------------------------------------------*/

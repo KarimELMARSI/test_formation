@@ -35,6 +35,7 @@ body {
 .my_name {
     width: 436px;
     height: 166px;
+    padding: 13px;
 }
 .my_desc {
     width: 360px;

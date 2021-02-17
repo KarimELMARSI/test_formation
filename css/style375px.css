@@ -1,3 +1,6 @@
+body{
+    background-size: 375px;
+}
 /*header mobile responsive section*/
 /*-------------------------------------------------------------------------------------------------*/
 .header {
@@ -8,7 +11,47 @@
 }
 /*hero-header mobile responsive section*/
 /*-------------------------------------------------------------------------------------------------*/
-
+.my_name {
+    width: 273px;
+    height: 118px;
+}
+.my_name > p {
+    font-size: 66px;
+}
+.mname >.ybhl{
+    font-size: 18px;
+}
+.mname > p {
+    font-size: 20px;
+}
+.my_desc {
+    width: 237px;
+    height: 107px;
+    grid-area: 2/3/3/5;
+}
+.my_desc > p{
+    font-size: 20px;
+}
+.ichigo {
+    margin: 0;
+    width: 202px;
+    height: 276px;
+    margin-top: auto;
+    grid-area: 3/3/4/5;
+}
+.btnCV{
+    width: 280px;
+    height: 45px;
+    font-size: 17px;
+}
+.hero_header{
+    display: grid;
+    grid-template-columns: 8% 22% 70%;
+    grid-template-rows: 260px 150px 300px 72px;
+    grid-row-gap: 10px;
+    grid-column-gap: 0;
+    height: 812px;
+}
 /*display none*/
 /*-------------------------------------------------------------------------------------------------*/
 .project_container{
