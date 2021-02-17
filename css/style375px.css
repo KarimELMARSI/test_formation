@@ -54,7 +54,51 @@ body{
 }
 /*projects mobile responsive section*/
 /*-------------------------------------------------------------------------------------------------*/
-
+.project_section{
+    width: 90%;
+    height: 450px;
+    padding: 15px;
+    margin-top: 70px;
+}
+.projects_intro > h1{
+    font-size: 22px;
+}
+.projects_intro > p{
+    font-size: 13px;
+    margin-top: 10px;
+}
+.projects_intro{
+    padding: 10px;
+}
+.project{
+    width: 291px;
+    height: 300px;
+    padding: 10px;
+}
+.projects{
+    grid-template-columns: 100%;
+    width: 100%;
+}
+.project > img {
+    width: 70px;
+    height: 81px;
+    margin: auto;
+}
+.project > h3 {
+    font-size: 18px;
+}
+.project > p {
+    font-size: 12px;
+    text-align: center;
+}
+.project > a > button {
+    font-size: 16px;
+    height: 41px;
+}
+.project > a{
+    margin: auto;
+    width: 100%;
+}
 /*display none*/
 /*-------------------------------------------------------------------------------------------------*/
 .about_me{
