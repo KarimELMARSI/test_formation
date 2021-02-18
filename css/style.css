@@ -403,6 +403,7 @@ body {
 /*footer section*/
 /*-------------------------------------------------------------------------------------------------*/
 .footer {
+    width: 100%;
     margin-top: 150px;
     background-color: #FF8E3C;
     height: 435px;

@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" media="screen and (max-width: 768px)" href="css/style768px.css">
 	<link rel="stylesheet" media="screen and (max-width: 376px)" href="css/style375px.css">
+	<link rel="stylesheet" href="aos.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">	
 </head>
@@ -36,22 +37,22 @@
 		</div>
 		<!-- Hero header -->
 		<div class="hero_header" id="hero_header">
-				<div class="my_name">
+				<div class="my_name" data-aos="fade-right">
 					<p>👋</p>
 					<div class="mname">
 						<p class="hello">Hello, I'm</p>
 						<p class="ybhl">Youssef Bouhalla</p>
 					</div>
 				</div>
-				<div class="my_desc">
+				<div class="my_desc" data-aos="fade-right">
 					<p>I'm a begginner<br>
 						web develloper.</p>
 				</div>
-				<a href="#"><button type="button" class="btnCV">Download my CV!</button></a>
-				<img src="img/ichigo.png" alt="ichigo" class="ichigo">
+				<a href="#" data-aos="fade-right"><button type="button" class="btnCV">Download my CV!</button></a>
+				<img src="img/ichigo.png" alt="ichigo" class="ichigo" data-aos="fade-left">
 		</div>
 		<!-- My projects -->
-		<div class="project_container" id="projects">
+		<div class="project_container" id="projects" data-aos="fade-up">
 			<div class="project_section">
 				<div class="projects_intro">
 					<h1>Projets Réalisés</h1>
@@ -97,37 +98,37 @@
 		</div>
 		<!-- About me -->
 		<div class="about_me" id="about_me">
-			<img src="img/guts.jpg" alt="profile2">
-			<h2>À propos de moi</h2>
-			<p id="prg1">Hey there, My name is Youssef
+			<img src="img/guts.jpg" alt="profile2" data-aos="fade-right">
+			<h2 data-aos="fade-up">À propos de moi</h2>
+			<p id="prg1" data-aos="fade-up">Hey there, My name is Youssef
 					Bouhalla, and i am a begginner
 					web and mobile developper and
 					a designer , i live in Morocco 
 					exactly in a small town called
 					Youssoufia.</p>
-			<p id="prg2">My goal is to make beautiful
+			<p id="prg2" data-aos="fade-up">My goal is to make beautiful
 					things to help others in their life 💖!</p>
 		</div>
 		<!-- Competances -->
 		<div class="competances" id="competances">
 			<h2>Compétences</h2>
-			<img src="img/arrow.png" alt="arrow">
+			<img src="img/arrow.png" alt="arrow" data-aos="fade-right">
 			<div class="compts">
-				<div class="competance">
+				<div class="competance" data-aos="fade-left">
 					<img src="img/Pourcentage1.png" alt="Pourcentage1">
 					<div>
 						<h4>Mobile Dev</h4>
 						<p>JAVA, FireBase, Dart ...</p>
 					</div>
 				</div>
-				<div class="competance">
+				<div class="competance" data-aos="fade-left">
 					<img src="img/Pourcentage2.png" alt="Pourcentage2">
 					<div>
 						<h4>Web Dev</h4>
 						<p>HTML, CSS, JAVA Script, Bootstrap ...</p>
 					</div>
 				</div>
-				<div class="competance">
+				<div class="competance" data-aos="fade-left">
 					<img src="img/Pourcentage3.png" alt="Pourcentage3">
 					<div>
 						<h4>Design</h4>
@@ -139,18 +140,18 @@
 		<!-- Contact me -->
 		<div id="contact_me">
 			<div class="contact_me">
-				<h2>Contact me</h2>
-				<div class="email_number" id="email">
+				<h2 data-aos="fade-right">Contact me</h2>
+				<div class="email_number" id="email" data-aos="fade-right">
 					<img src="img/mail.svg" alt="mail">
 					<h4>yo.bouhalla@gmail.com</h4>
 					<p>send an email to me!</p>
 				</div>
-				<div class="email_number" id="number">
+				<div class="email_number" id="number" data-aos="fade-right">
 					<img src="img/telephone.svg" alt="phone">
 					<h4>+212656392583</h4>
 					<p>call me!</p>
 				</div>
-				<div class="social_media">
+				<div class="social_media" data-aos="fade-left">
 					<img src="img/facebook.svg" alt="facebook" id="facebook">
 					<a href="https://www.facebook.com/profile.php?id=100013575014881">Facebook</a>
 					<img src="img/instagram.svg" alt="instagram" id="instagram">
@@ -184,5 +185,12 @@
 		</div>
 	</div>
 	<script src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script src="aos.js"></script>
+	<script type="text/javascript">
+		AOS.init({
+			duration: 1200,
+		});
+	  </script>
 </body>
 </html>
