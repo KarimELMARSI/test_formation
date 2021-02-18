@@ -152,11 +152,66 @@ body{
     height: 400px;
     grid-row-gap: 20px;
 }
-/*display none*/
+/*contact me mobile responsive section*/
 /*-------------------------------------------------------------------------------------------------*/
-#contact_me{
+.contact_me {
+    grid-template-columns: 100%;
+    grid-template-rows: 15% 25% 25% 25%;
+    grid-row-gap: 0%;
+    padding: 20px;
+    height: 300px;
+    width: 90%;
+    margin-top: 50px;
+}
+.email_number > img {
+    height: 40px;
+    width: 40px;
+    margin-left: auto;
+}
+.social_media > a{
     display: none;
 }
+.email_number > h4  {
+    font-size: 15px;
+}
+.email_number > p {
+    font-size: 12px;
+}
+.social_media > p{
+    font-size: 10px;
+}
+.contact_me > h2 {
+    font-size: 22px;
+    grid-row: 1/2;
+    text-align: center;
+}
+#email{
+    grid-row: 2/3;
+}
+#number{
+    grid-row: 3/4;
+}.social_media {
+    grid-area: 4/1/5/2;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 100%;
+    grid-row-gap: 0;
+    grid-column-gap: 0;
+    margin-top: 0;
+}
+#facebook,#twitter,#github,#instagram {
+    margin: auto;
+}
+.email_number{
+    display: grid;
+    grid-template-columns: 23% 72%;
+    grid-template-rows: repeat(2, 50%);
+    grid-column-gap: 5%;
+    grid-row-gap: 0;
+    height: fit-content;
+}
+/*display none*/
+/*-------------------------------------------------------------------------------------------------*/
 .footer{
     display: none;
 }
