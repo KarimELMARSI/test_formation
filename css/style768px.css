@@ -27,9 +27,11 @@ body {
 /*-------------------------------------------------------------------------------------------------*/
 .hero_header {
     margin: auto;
+    margin-top: 96px;
+    height: 100vh;
     grid-template-columns: 5% 15% 25% 20% 25%;
-    grid-template-rows: 13em 11em 27em 8em;
-    grid-row-gap: 10px;
+    grid-template-rows: 20% 10% 54% 10%;
+    grid-row-gap: 2%;
     grid-column-gap: 20px;
 }
 .my_name {
@@ -189,6 +191,9 @@ body {
 }
 /*contact me tablet responsive section*/
 /*-------------------------------------------------------------------------------------------------*/
+#contact_me {
+    width: 100%;
+}
 .contact_me {
     height: 378px;
     width: 90%;

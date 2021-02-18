@@ -5,9 +5,13 @@ body{
 /*-------------------------------------------------------------------------------------------------*/
 .header {
     height: 65px;
+    width: 100vw;
 }
 .logo {
     font-size: 44px;
+}
+.hamburger_menu {
+    width: 100vw;
 }
 /*hero-header mobile responsive section*/
 /*-------------------------------------------------------------------------------------------------*/
@@ -47,8 +51,8 @@ body{
 .hero_header{
     display: grid;
     grid-template-columns: 8% 22% 70%;
-    grid-template-rows: 260px 150px 300px 72px;
-    grid-row-gap: 10px;
+    grid-template-rows: 20% 10% 54% 10%;
+    grid-row-gap: 2%;
     grid-column-gap: 0;
     height: 812px;
 }
