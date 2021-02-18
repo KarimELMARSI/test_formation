@@ -212,3 +212,33 @@ body{
 }
 /*footer mobile responsive section*/
 /*-------------------------------------------------------------------------------------------------*/
+.footer {
+    height: 407px;
+    grid-template-columns: 100%;
+    grid-template-rows: 30% 60% 10%;
+    padding: 10px;
+}
+.footer_menu {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    height: 90%;
+}
+#copyright{
+    grid-row: 3/4;
+    font-size: 15px;
+}
+#ftr_logo {
+    font-size: 45px;
+}
+.logo_social > img {
+    height: 31px;
+    width: 31px;
+}
+.logo_social {
+    grid-template-columns: repeat(4,3em);
+    grid-template-rows: repeat(2,3em);
+    grid-row-gap: 1em;
+}
+.footer_menu > li > a {
+    font-size: 20px;
+}
