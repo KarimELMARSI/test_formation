@@ -135,8 +135,6 @@ body {
     border-style: none;
     border-radius: 22px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-.hero_header > a {
     grid-area: 3/2/4/4;
     margin-top: auto;
 }
@@ -192,7 +190,7 @@ body {
     font-size: 34px;
     color: #2A2A2A;
 }
-.project > a > button {
+.project > button {
     border-radius: 23px;
     border-style: none;
     background-color: #FF8E3C;
@@ -201,10 +199,7 @@ body {
     font-size: 32px;
     font-weight: 500;
     height: 80px;
-}
-.project > a{
     margin: auto;
-    width: 100%;
 }
 .projects {
     display: grid;

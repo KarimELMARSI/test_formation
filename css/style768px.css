@@ -22,6 +22,7 @@ body {
 }
 .changed {
     top: 0px;
+    width: 100%;
 }
 /*hero-header tablet responsive section*/
 /*-------------------------------------------------------------------------------------------------*/
@@ -44,7 +45,7 @@ body {
     height: 151px;
     grid-area: 2/4/3/6;
 }
-.hero_header > a {
+.btnCV{
     grid-area: 4/1/6/6;
     margin: auto;
 }
@@ -102,13 +103,9 @@ body {
 .project > p {
     font-size: 17px;
 }
-.project > a > button {
+.project > button {
     font-size: 16px;
     height: 44px;
-}
-.project > a{
-    margin: auto;
-    width: 100%;
 }
 .project{
     width: 297px;
