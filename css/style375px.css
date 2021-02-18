@@ -210,8 +210,5 @@ body{
     grid-row-gap: 0;
     height: fit-content;
 }
-/*display none*/
+/*footer mobile responsive section*/
 /*-------------------------------------------------------------------------------------------------*/
-.footer{
-    display: none;
-}
