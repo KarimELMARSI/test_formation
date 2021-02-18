@@ -87,7 +87,7 @@ body{
     height: 81px;
     margin: auto;
 }
-.project > h3 {
+.project > h1 {
     font-size: 18px;
 }
 .project > p {

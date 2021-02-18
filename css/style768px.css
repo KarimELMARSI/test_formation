@@ -94,7 +94,7 @@ body {
     margin: auto;
     padding: 10px;
 }
-.project > h3 {
+.project > h1 {
     font-size: 25px;
 }
 .project > p {
