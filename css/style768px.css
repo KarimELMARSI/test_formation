@@ -212,7 +212,7 @@ body {
 .email_number > p {
     font-size: 15px;
 }
-.email_number > h4 , .social_media > p {
+.email_number > h1 , .social_media > p {
     font-size: 23px;
 }
 .email_number > img {

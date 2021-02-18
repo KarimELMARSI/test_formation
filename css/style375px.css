@@ -136,7 +136,7 @@ body{
     width: 50px;
     height: 50px;
 }
-.competance > div > h4 {
+.competance > div > h1 {
     font-size: 16px;
 }
 .competance > div > p {
@@ -175,7 +175,7 @@ body{
 .social_media > a{
     display: none;
 }
-.email_number > h4  {
+.email_number > h1  {
     font-size: 15px;
 }
 .email_number > p {

@@ -297,7 +297,7 @@ body {
     margin-top: auto;
     margin-bottom: auto;
 }
-.competance > div > h4 {
+.competance > div > h1 {
     font-size: 35px;
     font-weight: 600;
     color: #0D0D0D;
@@ -342,7 +342,7 @@ body {
     border-radius: 57px;
     margin: auto;
 }
-.email_number > h4 , .social_media > p {
+.email_number > h1 , .social_media > p {
     font-size: 40px;
     font-weight: 500;
     height: fit-content;
