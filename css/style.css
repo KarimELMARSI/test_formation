@@ -13,7 +13,6 @@ body {
 /*-------------------------------------------------------------------------------------------------*/
 .header {
     display: flex;
-    justify-content: space-between;
     background-color: rgba(255, 255, 254, .2);
     backdrop-filter: blur(5px) ;
     -webkit-backdrop-filter: blur(5px);
@@ -22,6 +21,12 @@ body {
     height: 10vh;
     top: 0%;
     z-index: 2;
+}
+.header > div{
+    display: flex;
+    justify-content: space-between;
+    width: 95vw;
+    margin: auto;
 }
 #hamburger {
     display: none;
@@ -51,8 +56,8 @@ body {
 .items {
     list-style: none;
     display: flex;
-    width: 70%;
-    font-size: 23px;
+    width: 65vw;
+    font-size: 2vw;
     justify-content: space-around;
     margin-top: auto;
     margin-bottom: auto;
@@ -62,7 +67,6 @@ body {
     color: #0D0D0D;
 }
 .logo{
-    margin-left: 30px;
     font-size: 45px;
     font-weight: 700;
     text-decoration: none;
@@ -246,12 +250,16 @@ body {
 }
 /*about me section*/
 /*-------------------------------------------------------------------------------------------------*/
+.abt_me{
+    height: 100vh;
+    padding-top: 10vh;
+}
 .about_me {
     display: grid;
     grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 20% 50% 30%;
     width: 90vw;
-    padding-top: 10vh;
-    height: 100vh;
+    height: 100%;
     margin: auto;
 }
 .about_me > img {
@@ -271,7 +279,7 @@ body {
 /*-------------------------------------------------------------------------------------------------*/
 .competances > img {
     width: 100%;
-    height: 49.65vw;
+    height: 100%;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -287,7 +295,8 @@ body {
 .competances{
     display: grid;
     grid-template-columns: 10vw 22vw 68vw;
-    height: 100vh;
+    grid-template-rows: 700px;
+    height: fit-content;
     padding-top: 10vh;
 }
 .competance {
@@ -297,8 +306,9 @@ body {
     border: solid 4px #0D0D0D;
     border-radius: 39px;
     width: 59.17vw;
-    height: 13,82vw;
+    height: 70%;
     padding: 1.39vw;
+    margin: auto;
 }
 .competance > img{
     width: 7.5vw;
@@ -330,9 +340,8 @@ body {
 }
 .compts {
     display: grid;
-    grid-row-gap: 25px;
     width: 59.17vw;
-    height: 47.22vw;
+    height: 100%;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -340,7 +349,8 @@ body {
 /*-------------------------------------------------------------------------------------------------*/
 #contact_me{
     padding-top: 10vh;
-    height: 100vh;
+    height: fit-content;
+    width: 100vw;
 }
 .contact_me {
     display: grid;
@@ -349,23 +359,19 @@ body {
     grid-column-gap: 15%;
     grid-row-gap: 6%;
     padding: 4.17vw;
-    height: 100%;
+    height: 47.8vw;
     width: 90vw;
     background-color: #FF8E3C;
     border-radius: 57px;
     margin: auto;
 }
 .email_number > h1 , .social_media > p {
-    font-size: 40px;
+    font-size: 2.8vw;
     font-weight: 500;
     height: fit-content;
 }
-.email_number > img {
-    height: 90px;
-    width: 90px;
-}
 .email_number > p {
-    font-size: 29px;
+    font-size: 2.01vw;
     height: fit-content;
     color: #EFF0F3;
 }
@@ -378,7 +384,7 @@ body {
     grid-column-gap: 2%;
 }
 .social_media > a{
-    font-size: 45px;
+    font-size: 3.1vw;
     font-weight: 500;
     margin-top: auto;
     margin-bottom: auto;
@@ -405,6 +411,8 @@ body {
     grid-area: 2/1/3/2;
 }
 .email_number > img {
+    width: 6.25vw;
+    height: 6.25vw;
     grid-row: 1/3;
     margin-bottom: auto;
 }
@@ -413,25 +421,25 @@ body {
     font-weight: 700;
 }
 #facebook {
-    height: 74px;
-    width: 74px;
+    height: 5.14vw;
+    width: 5.14vw;
 }
 #instagram {
-    height: 74px;
-    width: 74px;
+    height: 5.14vw;
+    width: 5.14vw;
 }
 #twitter {
-    height: 74px;
-    width: 91px;
+    height: 5.14vw;
+    width: 6.32vw;
 }
 #github{
-    height: 81px;
-    width: 83px;
+    height: 5.6vw;
+    width: 5.76vw;
 }
 /*footer section*/
 /*-------------------------------------------------------------------------------------------------*/
 .footer {
-    width: 100%;
+    width: 100vw;
     margin-top: 150px;
     background-color: #FF8E3C;
     height: 435px;

@@ -5,13 +5,13 @@ body{
 /*-------------------------------------------------------------------------------------------------*/
 .header {
     height: 65px;
-    width: 100vw;
+    width: 100%;
 }
 .logo {
     font-size: 44px;
 }
 .hamburger_menu {
-    width: 100vw;
+    width: 100%;
 }
 /*hero-header mobile responsive section*/
 /*-------------------------------------------------------------------------------------------------*/
@@ -54,7 +54,7 @@ body{
     grid-template-rows: 20% 10% 54% 10%;
     grid-row-gap: 2%;
     grid-column-gap: 0;
-    height: 812px;
+    height: 650px;
 }
 /*projects mobile responsive section*/
 /*-------------------------------------------------------------------------------------------------*/
@@ -65,7 +65,6 @@ body{
     width: 90%;
     height: 450px;
     padding: 15px;
-    margin-top: 70px;
 }
 .projects_intro > h1{
     font-size: 22px;
@@ -107,10 +106,10 @@ body{
 .about_me {
     display: grid;
     grid-template-columns: repeat(2, 47%);
-    grid-template-rows: 20% 40% 25% 15%;
+    grid-template-rows: 5vh 32vh 20vh 10vh;
     grid-column-gap: 6%;
     width: 90%;
-    height:600px;
+    height:100%;
     margin: auto;
 }
 .about_me > img {
@@ -122,6 +121,9 @@ body{
 }
 .about_me > p {
     font-size: 17px;
+}
+.abt_me{
+    height: fit-content;
 }
 /*competances mobile responsive section*/
 /*-------------------------------------------------------------------------------------------------*/
@@ -145,8 +147,9 @@ body{
     margin: auto;
 }
 .compts {
-    height: 300px;
+    height: 100%;
     margin-top: 0;
+    grid-row-gap: 10px;
 }
 .competances{
     height: 400px;
@@ -161,7 +164,6 @@ body{
     padding: 20px;
     height: 300px;
     width: 90%;
-    margin-top: 50px;
 }
 .email_number > img {
     height: 40px;
